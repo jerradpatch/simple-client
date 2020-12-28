@@ -3,8 +3,8 @@ simple client architecture using axios, typescript, moca, chai, and mock axios
 
 # Instructions
 
--- note the "dist" folder is commited, normally it wouldnt be. However, in order to make it so the typescript doesnt have to be compile,
--- node version "v14.15.0" or greater this was ran with. I would recommend installing node with "nvm" using this repo "https://github.com/nvm-sh/nvm"
+- note the "dist" folder is commited, normally it wouldnt be. However, in order to make it so the typescript doesnt have to be compile,
+- node version "v14.15.0" or greater this was ran with. I would recommend installing node with "nvm" using this repo "https://github.com/nvm-sh/nvm"
 
 1) clone the directory
 2) install node
@@ -12,7 +12,7 @@ simple client architecture using axios, typescript, moca, chai, and mock axios
 4) run the script with "npm run start" and the data should be output to the terminal
 optional 5) run tests with "npm run test" 
 
--- note: I didnt code up the tests for each function and validating output. Setting up the project, analysis, and writing the code, I believe is enough to get what was wanted from this exercise. In addtion, I didnt have an example output to validate against, so a degree of code that would be written for validation would be based on what I think is the correct outout :/ .
+- note: I didnt code up the tests for each function and validating output. Setting up the project, analysis, and writing the code, I believe is enough to get what was wanted from this exercise. I would have liked an expected output to compare my resulting output with.
 
 example output below
 
@@ -33,7 +33,7 @@ example output below
 3) setup the base client configuration with folder structure, typescript, services, testing, and environment configuration.
 4) wrote the code from point 2
 
-# improvments
+# improvements
 1) improved unit and integration tests
 2) circleci script to validate that the installation and run process will work on any machine
 3) using sql lite to do selections before aggregating over the results to derive the desired keys
