@@ -10,6 +10,9 @@ simple client architecture using axios, typescript, moca, chai, and mock axios
 2) install node
 3) while in the directory run "npm i"
 4) run the script with "npm run start" and the data should be output to the terminal
+optional 5) run tests with "npm run test" 
+
+-- note: I didnt code up the tests for each function and validating output. Setting up the project, analysis, and writing the code, I believe is enough to get what was wanted from this exercise. In addtion, I didnt have an example output to validate against, so a degree of code that would be written for validation would be based on what I think is the correct outout :/ .
 
 example output below
 
