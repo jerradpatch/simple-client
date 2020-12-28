@@ -32,3 +32,8 @@ example output below
   b) itterating over that resulting array to pull out the derived keys
 3) setup the base client configuration with folder structure, typescript, services, testing, and environment configuration.
 4) wrote the code from point 2
+
+# improvments
+1) improved unit and integration tests
+2) circleci script to validate that the installation and run process will work on any machine
+3) using sql lite to do selections before aggregating over the results to derive the desired keys
